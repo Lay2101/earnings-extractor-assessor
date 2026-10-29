@@ -1826,5 +1826,202 @@
     "filing_found": false,
     "recheck": true,
     "assessed_at": "2026-10-29T06:38:09+08:00"
+  },
+  {
+    "accession": "0001104659-26-117576",
+    "cik": "1140859",
+    "company": "Cencora, Inc.",
+    "period_end": "2026-10-21",
+    "period_label": "no quarterly results; acquisition announcement of 21 October 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty: the release is an acquisition announcement with no quarterly results."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty: the release is an acquisition announcement with no quarterly results."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left net income empty: the release is an acquisition announcement with no quarterly results."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty: the release gives only adjusted EPS guidance, not a quarterly figure."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No figure could be checked against a 10-Q. Both quotes (M1, M2) and the guidance quote are in the release. The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "The release gives no quarterly results, so the four empty figures are not a fault. The guidance of at least $17.90 adjusted EPS is saved."
+      },
+      "S3": {
+        "score": 5,
+        "reason": "The extract states clearly that this is an acquisition announcement and gives the guidance and two claims with quotes. It can be used as it stands."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "A claim about the oncology MSO business. No quarterly fundamentals exist for this release, and the SEC answer was blocked."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "An outlook claim about EPS accretion in year two after closing. No trend figures could be read, so it cannot be tested."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "No fundamentals could be read. The release itself raises guidance to at least $17.90, the high end of the earlier $17.75 to $17.95 range."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "other",
+        "claim": "The CEO says the acquisition of American Oncology Network will expand Cencora's oncology MSO.",
+        "quote": "The acquisition of AON will expand our physician-led oncology MSO and support of care in communities across the country",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "Management expects the deal to add to adjusted diluted EPS in the second year after closing.",
+        "quote": "Cencora expects the acquisition to be accretive to Cencora's adjusted diluted EPS in the second year post-closing.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO describes the deal as strengthening support for oncology practices and the growth platform."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-10-30T06:38:15+08:00"
   }
 ]
